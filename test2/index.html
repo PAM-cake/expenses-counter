@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+
+        <div class="expense-form">
+            <input type="text" id="productName" placeholder="Product Name" required>
+            <input type="date" id="expenseDate" required>
+            <input type="number" id="expenseAmount" placeholder="Enter amount in ₹" required>
+            <button id="addExpenseBtn">Add Expense</button>
+        </div>
+
+        <div class="action-buttons">
+            <button id="clearMonthBtn">Clear Month</button>
+            <button id="undoBtn">Undo Last Expense</button>
+        </div>
+
+        <div id="monthlySummary">
+            <!-- Monthly summaries will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

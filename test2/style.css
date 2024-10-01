@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.expense-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.expense-form input {
+    padding: 10px;
+    font-size: 16px;
+    width: 25%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.expense-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.expense-form button:hover {
+    background-color: #218838;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.action-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clearMonthBtn {
+    background-color: #dc3545; /* Red */
+}
+
+#undoBtn {
+    background-color: #ffc107; /* Yellow */
+}
+
+.action-buttons button:hover {
+    opacity: 0.9;
+}
+
+#monthlySummary {
+    margin-top: 20px;
+}
+
+.month-table {
+    margin-bottom: 30px;
+}
+
+.month-table h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.month-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.month-table th, .month-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.month-table th {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.month-table td {
+    background-color: #fff;
+    color: #555;
+}
+
+.total-row {
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
